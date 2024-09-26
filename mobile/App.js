@@ -39,7 +39,7 @@ const container = StyleSheet.create({
   },
 
   body: {
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#000',
     width: '100%',
     height: '100%',
   },

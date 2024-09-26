@@ -4,12 +4,12 @@ export default StyleSheet.create({
     
     container: {
         width: '100%',
-        height: '100%',
-        backgroundColor: '#f5f5f5',
+        height: '80%',
+        backgroundColor: '#c0c0c0',
     },
 
     box: {
-        width: '97%',
+        width: '95%',
         height: '75%',
         backgroundColor: '#FFF',
         borderRadius: 8,
@@ -22,6 +22,20 @@ export default StyleSheet.create({
         backgroundColor: '#FFF',
         borderRadius: 8,
         margin: 10,
+    },
+
+    button: {
+        backgroundColor: '#9c0000',
+        padding: 30,
+        margin: 10,
+        borderRadius: 8,
+        width: '95%'
+    },
+
+    textButton: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold',
     },
 
     buttonProp: {

@@ -15,6 +15,7 @@ export default function Imoveis({route, navigation}) {
     const [imoveis, setImoveis] = useState([]);
     const [imoveisEspecificos, setImoveisEspecificos] = useState([]);
     const [ids, setIds] = useState([]);
+    const {rua} = route.params;
 
     const loadImoveis = async () => {
         const response = await api.get('/imoveis');
@@ -40,7 +41,7 @@ export default function Imoveis({route, navigation}) {
                     <View style={styles.buttons}>
                         <TouchableOpacity 
                             style={styles.buttonNew} 
-                            onPress={() => navigation.navigate("Proprietarios")}
+                            onPress={() => navigation.navigate("Proprietarios", {rua:rua, imoveis:imoveis})}
                         >
                             <Text style={styles.textButtonNew}>Voltar</Text>
                         </TouchableOpacity>

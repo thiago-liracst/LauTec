@@ -3,10 +3,34 @@ import { StyleSheet} from 'react-native';
 export default StyleSheet.create({
     
     container: {
-        width: '107%',
+        width: '104%',
         height: '86%',
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#c0c0c0',
     },
+
+    buttons: {
+        width: '93%',
+        height: 90,
+        justifyContent: 'space-between',
+        flexDirection: 'row',
+        backgroundColor: '#c0c0c0'
+    },
+
+    buttonNew:{
+        backgroundColor: '#9c0000',
+        padding: 20,
+        margin: 10,
+        borderRadius: 8,
+        alignItems: 'center',
+        width: '46%',
+    },
+
+    textButtonNew: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginTop: 3,
+      },
 
     box: {
         width: '91%',
@@ -58,13 +82,13 @@ export default StyleSheet.create({
     },
 
     buttonPagamento: {
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#9c0000',
         padding: 10,
         marginLeft: 10,
-        marginRight: 10,
+        marginRight: 15,
         marginTop: 20,
         borderRadius: 8,
-        width: '96%',
+        width: '94%',
         alignItems: 'center',
     },
 
@@ -90,9 +114,11 @@ export default StyleSheet.create({
     },
 
     infoRegis: {
-        backgroundColor: '#F5F5F5',
+        backgroundColor: 'white',
         padding: 15,
         borderRadius: 8,
+        borderColor: '#9c0000',
+        borderWidth: 2,
         marginLeft: 10,
         marginRight: 10,
         flexDirection: 'row',
@@ -104,6 +130,14 @@ export default StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
         marginLeft: 10,
+        color: 'white'
+    },
+
+    textDividas: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginLeft: 10,
+        color: '#9c0000'
     },
 
     boxNewRegistro: {
@@ -126,16 +160,23 @@ export default StyleSheet.create({
 
     ano: {
         backgroundColor: '#FFF',
-        width: '29%',
-        height: 30,
+        width: '40%',
+        height: 40,
         borderRadius: 5,
+        padding: 5,
+        borderColor: 'black',
+        borderWidth: 1,
+        color: 'black',
     },
 
     regis: {
         backgroundColor: '#FFF',
-        width: '49%',
-        height: 30,
+        width: '40%',
+        height: 40,
         borderRadius: 5,
+        padding: 5,
+        borderColor: 'black',
+        borderWidth: 1
     },
 
     buttonRegis: {
@@ -149,9 +190,11 @@ export default StyleSheet.create({
 
     inputAnot: {
         backgroundColor: '#FFF',
-        padding: 60,
+        padding: 30,
         margin: 10,
         borderRadius: 8,
+        borderColor: 'black',
+        borderWidth: 1
     },
 
     textButtonRegis: {

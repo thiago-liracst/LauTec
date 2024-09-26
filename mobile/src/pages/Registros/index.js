@@ -96,19 +96,21 @@ export default function Registro({route, navigation}) {
     return(
         <View style={styles.container} extraData={imovel}>
             
-            <TouchableOpacity 
-                style={styles.buttonProp} 
-                onPress={() => navigation.goBack()}
-            >
-                <Text style={styles.textButtonProp}>Voltar</Text>
-            </TouchableOpacity>
+            <View  style={styles.buttons}>
+                <TouchableOpacity 
+                    style={styles.buttonNew} 
+                    onPress={() => navigation.goBack()}
+                >
+                    <Text style={styles.textButtonNew}>Voltar</Text>
+                </TouchableOpacity>
 
-            <TouchableOpacity 
-                style={styles.buttonProp} 
-                onPress={() => {loadImovel(); loadImovel();}}
-            >
-                <Text style={styles.textButtonProp}>Carregar</Text>
-            </TouchableOpacity>
+                <TouchableOpacity 
+                    style={styles.buttonNew} 
+                    onPress={() => {loadImovel(); loadImovel();}}
+                >
+                    <Text style={styles.textButtonNew}>Atualizar</Text>
+                </TouchableOpacity>
+            </View>
 
             <ScrollView showsHorizontalScrollIndicator={false}>
                 <View style={styles.box}> 
@@ -210,7 +212,7 @@ export default function Registro({route, navigation}) {
                         extraData={dividas}
                         renderItem={({item}) => (
                             <View style={styles.infoRegis}>
-                                <Text style={styles.textRegistro}>{item}</Text>
+                                <Text style={styles.textDividas}>{item}</Text>
                             </View>
                         )}
                     /> 

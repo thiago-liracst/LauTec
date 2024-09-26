@@ -5,27 +5,27 @@ export default StyleSheet.create({
     container: {
         width: '100%',
         height: '100%',
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#c0c0c0',
     },
 
     box: {
-        width: '97%',
-        height: '67%',
-        backgroundColor: '#FFF',
+        width: '95%',
+        height: '50%',
+        backgroundColor: 'white',
         borderRadius: 8,
         margin: 10,
     },
 
     buttons: {
-        width: '100%',
+        width: '95%',
         height: 100,
         justifyContent: 'space-between',
         flexDirection: 'row',
-        backgroundColor: '#f5f5f5'
+        backgroundColor: '#c0c0c0'
     },
 
     button: {
-        backgroundColor: 'white',
+        backgroundColor: '#9c0000',
         padding: 30,
         margin: 10,
         borderRadius: 8,
@@ -43,15 +43,15 @@ export default StyleSheet.create({
     },
 
     buttonProp: {
-        backgroundColor: 'white',
+        backgroundColor: '#9c0000',
         padding: 30,
         margin: 10,
         borderRadius: 8,
-        width: '97%',
+        width: '95%',
     },
 
     textButtonProp: {
-        color: 'black',
+        color: 'white',
         fontSize: 18,
         fontWeight: 'bold',
     },

@@ -67,10 +67,10 @@ export default function Cobranca() {
         <View style={styles.container}>
             
             <TouchableOpacity 
-                style={styles.buttonProp} 
+                style={styles.button} 
                 onPress={() => navigation.navigate("Ruas")}
             >
-                <Text style={styles.textButtonProp}>Voltar</Text>
+                <Text style={styles.textButton}>Voltar</Text>
             </TouchableOpacity> 
 
             <ScrollView showsHorizontalScrollIndicator={false}>

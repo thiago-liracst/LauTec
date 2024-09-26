@@ -54,7 +54,7 @@ export default function Pagamento({route, navigation}) {
                             style={styles.buttonNew} 
                             onPress={() => {loadRegistro(); loadRegistro();}}
                         >
-                            <Text style={styles.textButtonNew}>Carregar</Text>
+                            <Text style={styles.textButtonNew}>Atualizar</Text>
                         </TouchableOpacity>
 
                         <TouchableOpacity 

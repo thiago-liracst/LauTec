@@ -44,16 +44,21 @@ export default function Ruas() {
 
     return(
         <>
-            <TouchableOpacity 
-                style={styles.buttonLoad} 
-                onPress={() => {loadRuas()}}
-            >
-                <Text style={styles.textButtonNew}>Carregar</Text>
-            </TouchableOpacity>
+            
+            
 
                 <View style={styles.container}>
                     <ScrollView showsHorizontalScrollIndicator={false}>    
 
+                    <View style={styles.buttons}>
+                        <TouchableOpacity 
+                            style={styles.buttonLoad} 
+                            onPress={() => {loadRuas()}}
+                        >
+                            <Text style={styles.textButtonNew}>Atualizar Ruas</Text>
+                        </TouchableOpacity>
+                    </View>
+                    
                         <View style={styles.buttons}>
                             <TouchableOpacity 
                                 style={styles.buttonNew} 
@@ -72,6 +77,7 @@ export default function Ruas() {
 
                         <View style={{
                             marginLeft: 12,
+                            marginRight: 12,
                             backgroundColor: "white",
                             borderRadius: 8,
                             height: 40,

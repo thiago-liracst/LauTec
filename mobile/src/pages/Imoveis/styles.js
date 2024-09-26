@@ -5,7 +5,7 @@ export default StyleSheet.create({
     container: {
         width: '100%',
         height: '75%',
-        backgroundColor: '#F5F5F5'
+        backgroundColor: '#c0c0c0'
     },
 
     buttons: {
