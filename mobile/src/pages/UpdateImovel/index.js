@@ -76,15 +76,15 @@ export default function UpdateImovel({route, navigation}) {
             <View style={styles.buttons}>
                 <TouchableOpacity 
                     style={styles.button} 
-                    onPress={() => {deleteImovel()}}
-                >
-                    <Text style={styles.textButtonProp}>Deletar Imóvel</Text>
-                </TouchableOpacity>
-                <TouchableOpacity 
-                    style={styles.button} 
                     onPress={() => {loadImovel(); loadImovel();}}
                 >
                     <Text style={styles.textButtonProp}>Carregar</Text>
+                </TouchableOpacity>
+                <TouchableOpacity 
+                    style={styles.button} 
+                    onPress={() => {deleteImovel()}}
+                >
+                    <Text style={styles.textButtonProp}>Deletar Imóvel</Text>
                 </TouchableOpacity>
             </View>
 

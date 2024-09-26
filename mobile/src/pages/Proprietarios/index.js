@@ -58,7 +58,7 @@ export default function Proprietarios({route, navigation}) {
                             style={styles.buttonNew} 
                             onPress={() => {loadProprietarios(); loadProprietarios();}}
                         >
-                            <Text style={styles.textButtonNew}>Carregar</Text>
+                            <Text style={styles.textButtonNew}>Atualizar</Text>
                         </TouchableOpacity>
                         
                     </View>
@@ -95,7 +95,7 @@ export default function Proprietarios({route, navigation}) {
                         renderItem={({item}) => (
                                 <TouchableOpacity 
                                     style={styles.buttonProp} 
-                                    onPress={() => navigation.navigate("Imoveis", {proprietario: item.proprietario.toString()})}
+                                    onPress={() => navigation.navigate("Imoveis", {proprietario: item.proprietario.toString(), rua: rua, imoveis: imoveis})}
                                 >
                                     <Text style={styles.textButtonProp}>{item.num.toString()+" - "+item.proprietario.toString()}</Text>
                                 </TouchableOpacity>

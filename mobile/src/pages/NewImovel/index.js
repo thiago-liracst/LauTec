@@ -51,10 +51,10 @@ export default function NewImovel({route, navigation}) {
         <View style={styles.container}>
             
             <TouchableOpacity 
-                style={styles.buttonProp} 
+                style={styles.button} 
                 onPress={() => navigation.navigate("Ruas")}
             >
-                <Text style={styles.textButtonProp}>Voltar</Text>
+                <Text style={styles.textButton}>Voltar</Text>
             </TouchableOpacity>
 
             

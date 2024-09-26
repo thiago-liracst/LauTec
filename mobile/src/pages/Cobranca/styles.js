@@ -8,6 +8,19 @@ export default StyleSheet.create({
         backgroundColor: '#F5F5F5'
     },
 
+    button: {
+        backgroundColor: '#9c0000',
+        padding: 30,
+        margin: 10,
+        borderRadius: 8,
+    },
+
+    textButton: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+
     buttonProp: {
         backgroundColor: 'white',
         padding: 30,

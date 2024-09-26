@@ -5,7 +5,7 @@ export default StyleSheet.create({
     container: {
         width: '100%',
         height: '78%',
-        backgroundColor: '#f5f5f5'
+        backgroundColor: '#c0c0c0'
     },
 
     buttons: {
@@ -13,7 +13,7 @@ export default StyleSheet.create({
         height: 90,
         justifyContent: 'space-between',
         flexDirection: 'row',
-        backgroundColor: '#f5f5f5'
+        backgroundColor: '#c0c0c0'
     },
 
     buttonNew:{
@@ -31,7 +31,7 @@ export default StyleSheet.create({
         margin: 10,
         borderRadius: 8,
         alignItems: 'center',
-        width: '95%',
+        width: '98%',
       },
     
       textButtonNew: {
